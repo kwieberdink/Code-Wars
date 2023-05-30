@@ -19,7 +19,7 @@
             {
                 // if char 'a' appears once, the ternary op '? ;' is used to return
                 // '(', otherwise tern op returns ')'
-                return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
+                return w.indexOf(a) === w.lastIndexOf(a) ? '(' : ')'
             }) // returns a new array with the same length as original
             // replacing letters with either '(' or ')' based on whether
             // a character appears once in original string.
